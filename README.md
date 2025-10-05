@@ -13,3 +13,5 @@ Animations are already provided. Just check out the ExampleState class and imple
 Don't forget to modify the cat class to give it a starting state.
 
 Good luck!
+
+Credits for the cute cat graphics go to ToffeeCraft: https://toffeecraft.itch.io/pet-virtual-mobile-pixel-asset
