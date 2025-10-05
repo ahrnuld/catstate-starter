@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox alignment="CENTER" prefWidth="320" prefHeight="320" spacing="20.0" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="nl.inholland.catstate.CatController">
+    <padding>
+        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+    </padding>
+   <ImageView fx:id="catImageView" fitHeight="128.0" fitWidth="128.0" />
+    <Label fx:id="statusText" />
+   <HBox alignment="CENTER" spacing="10.0">
+      <children>
+         <Button onAction="#onFeedButtonClick" mnemonicParsing="false" text="Feed" />
+         <Button onAction="#onPetButtonClick" mnemonicParsing="false" text="Pet" />
+         <Button onAction="#onPlayButtonClick" mnemonicParsing="false" text="Play" />
+      </children>
+   </HBox>
+</VBox>
