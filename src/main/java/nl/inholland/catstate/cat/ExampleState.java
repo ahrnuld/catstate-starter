@@ -5,6 +5,9 @@ package nl.inholland.catstate.cat;
 // Then change the Cat class so that it starts in the sleeping state
 class ExampleState implements CatState {
 
+    // The enter method is called when a cat enters this state.
+    // Use it to execute logic that should run when a cat switches
+    // stage, most importantly: displaying the matching graphics.
     @Override
     public void enter(Cat cat) {
         // TODO: play the correct animation, see the SpriteFactory for what's available
